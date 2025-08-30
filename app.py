@@ -130,4 +130,5 @@ with tab3:
                 unsafe_allow_html=True)
             st.markdown("<hr>", unsafe_allow_html=True)
     else:
+
         st.info("ℹ️ No resumes to highlight. First run the matcher from Tab 1.")
