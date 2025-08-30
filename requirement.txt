@@ -1,9 +1,10 @@
 streamlit
 pandas
 numpy
-PyMuPDF
+PyMuPDF==1.22.5
 PyPDF2
 pdfplumber
 spacy
 scikit-learn
 nltk
+
