@@ -1,7 +1,7 @@
 # resume_parser.py
 
 import os
-import fitz
+import fitz        #from PyMuPDF
 import re
 from skill_matcher import match_skills
 
@@ -28,3 +28,4 @@ def parse_resume(file_path, jd_skills):
     except Exception as e:
         print(f"[Error] Resume parsing failed: {file_path} - {e}")
         return None
+
