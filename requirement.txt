@@ -1,6 +1,8 @@
 streamlit
+PyMuPDF
 PyPDF2
 spacy
 pdfplumber
 pandas
 scikit-learn
+
